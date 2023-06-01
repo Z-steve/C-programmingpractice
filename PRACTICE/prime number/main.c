@@ -9,7 +9,7 @@ int main() {
     printf("Please enter a number (only positive integers): ");
     scanf("%d", &x);
 
-    val1 = ceil(sqrt(x));   // find the square root, ceil function returns a smallest integer greater than or equal to x
+    val1 = ceil(sqrt(x));   // find the square root, ceil function returns a smaller integer greater than or equal to x
     val2 = x;
 
     for (i = 2; i <= val1; i++) {       // check the divisibility
